@@ -1,5 +1,14 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Icon from './icon';
+import '../icons/wechat.svg'
+import '../icons/taobao.svg'
 
-ReactDOM.render(<Icon name="wechat"/>, document.body)
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(
+  <>
+    <Icon name="wechat" />
+    <Icon name="taobao" />
+  </>
+);
