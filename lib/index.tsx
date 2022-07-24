@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
-import Icon from './icon';
+import Icon from './icon/icon';
 import '../icons/wechat.svg'
 import '../icons/taobao.svg'
 
